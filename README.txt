@@ -8,7 +8,7 @@ Le script "script_pipelines.py' est le script ayant permis le nettoyage des text
 
 DOSSIER KALDI : 
 
-/data/lbaviere/kaldi/egs/cv_espagnol/
+/media/storage0/ilyes/kaldi/egs/Espagnol/cv_espagnol/
 
 	data/dev/ --> contient les fichiers utt2spk spk2gender text wav.scp pour les données dev 
 	data/test/ --> contient les fichiers utt2spk spk2gender text wav.scp pour les données test	
