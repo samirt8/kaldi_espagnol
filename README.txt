@@ -59,7 +59,7 @@ Corpus audios utilisés :
 	35.860 audios d'environ 5 secondes (soit 62h au total) de OpenSLR Librispeech http://www.openslr.org/resources.php
 	980 audios d'environ 5 secondes (soit 1h30 au total) de VoxForge http://www.voxforge.org/es/Downloads	
 
-Corpus écrits utilisés : /data/lbaviere/kaldi/egs/cv_espagnol/data/local/corpus_30Go.txt contient : 
+Corpus écrits utilisés : /media/storage0/ilyes/kaldi/egs/Espagnol/cv_espagnol/data/local/corpus_30Go.txt contient : 
 	57 fichiers de 1.831.518 mots chacun : "120-million-word-spanish-corpus" https://www.kaggle.com/rtatman/120-million-word-spanish-corpus
 	7034 fichiers de 200 mots chacun : "TEI_ES" 
 	18 fichiers de 112.151 mots chacun : "gutenberg" https://www.gutenberg.org/browse/languages/es
