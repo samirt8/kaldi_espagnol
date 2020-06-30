@@ -66,3 +66,8 @@ Corpus écrits utilisés : /media/storage0/ilyes/kaldi/egs/Espagnol/cv_espagnol/
 	61 fichiers de 84.417.114 mots chacun : "open_subtitles" http://opus.nlpl.eu/OpenSubtitles.php
 	100 fichiers de 8.037.810 mots chacun : "spanish_billion_words" https://crscardellino.github.io/SBWCE/
 	1 fichier de 11.220.790 mots : "corpus_coca" 
+	
+
+Au final, j'ai donc entraîner mon modèle avec le script run_training1.sh, et utilisé comme modèle de langage le corpus_30Go.txt et le vocabulaire most_frequent_words.txt, et enfin fait la création des graphs et le décodage avec le script run_decoding1.sh
+
+Les résultats finaux que j'ai pu observé sont les suivants : En entraînant avec 216.000 audios, et en utilisant 12.600 audios pour la vérification et 12.600 pour le décodage, on a pu obtenir un WER d'approximativement 20%, en utilisant un modèle Hmm-Gmm.
