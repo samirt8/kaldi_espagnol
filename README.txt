@@ -3,7 +3,8 @@ Kaldi scripts
 	run_training1.sh est le training script pour le modèle kaldi 
 	run_decoding1.sh sert à la création des graphs et à l'exécution de la phase décodage du modèle
 
-Le script "script_pipelines.py' est le script ayant permis le nettoyage des textes pour l'obtention d'un corpus pour le modèle de language, est inspiré de celui du modèle français et adapté pour l'espagnol.
+Le script "script_pipelines.py' est le script ayant permis le nettoyage des textes pour l'obtention d'un corpus \
+    pour le modèle de language, est inspiré de celui du modèle français et adapté pour l'espagnol.
 
 
 DOSSIER KALDI : 
@@ -25,7 +26,8 @@ DOSSIER KALDI :
 	train/ --> contient les fichiers audios train
 
 	exp/make_mfcc --> contient les fichiers mfcc
-	exp/previous_runs --> contient les fichiers exp des anciens entraînements (ainsi que les scripts correspondants pour les run_subset1,2,3...)
+	exp/previous_runs --> contient les fichiers exp des anciens entraînements (ainsi que les scripts \
+	            correspondants pour les run_subset1,2,3...)
 	exp/* --> les dossiers d'entraînements du modèle actuel 
 		mono : entraînement monophone (train_mono.sh)
 		mono_ali : alignement monophone (align_si.sh)
@@ -49,7 +51,8 @@ DOSSIER KALDI :
 
 	run_training1.sh --> script utilisé pour la préparation des données et les différents entraînements du modèle
 
-	run_decoding1.sh --> script pour la création du modèle de langage et des graphs ainsi que pour le décodage des données dev et test
+	run_decoding1.sh --> script pour la création du modèle de langage et des graphs ainsi que pour le 
+	        \décodage des données dev et test
 
 
 
@@ -68,6 +71,10 @@ Corpus écrits utilisés : /media/storage0/ilyes/kaldi/egs/Espagnol/cv_espagnol/
 	1 fichier de 11.220.790 mots : "corpus_coca" 
 	
 
-Au final, j'ai donc entraîner mon modèle avec le script run_training1.sh, et utilisé comme modèle de langage le corpus_30Go.txt et le vocabulaire most_frequent_words.txt, et enfin fait la création des graphs et le décodage avec le script run_decoding1.sh
+Au final, j'ai donc entraîner mon modèle avec le script run_training1.sh, et utilisé comme modèle de langage \
+        le corpus_30Go.txt et le vocabulaire most_frequent_words.txt, et enfin fait la création des graphs et \
+        le décodage avec le script run_decoding1.sh
 
-Les résultats finaux que j'ai pu observé sont les suivants : En entraînant avec 216.000 audios, et en utilisant 12.600 audios pour la vérification et 12.600 pour le décodage, on a pu obtenir un WER d'approximativement 20%, en utilisant un modèle Hmm-Gmm.
+Les résultats finaux que j'ai pu observé sont les suivants : En entraînant avec 216.000 audios, et en utilisant \ 
+        12.600 audios pour la vérification et 12.600 pour le décodage, on a pu obtenir un WER d'approximativement \
+        20%, en utilisant un modèle Hmm-Gmm.
